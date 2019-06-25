@@ -1,0 +1,46 @@
+nav {
+    -webkit-box-direction: normal;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical;
+    border-width: 0;
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    min-height: 0;
+    padding: 24px 0 0;
+    user-select: none;
+    vertical-align: baseline;
+}
+
+.barr_laterale {
+    position: fixed;
+    display: flex;
+    left: 0;
+    width: 230px;
+    height: 100vh;
+    background-color: #020C12
+}
+
+.barr_comandi {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    height: 90px;
+    background-color: #282828
+}
+
+.main_cont {
+    display: flex;
+    flex: 1 100%;
+    width: 100%;
+    height: 100;
+    background: rgb(14, 85, 127);
+    background: -moz-linear-gradient(-45deg, rgba(14, 85, 127, 1) 0%, rgba(41, 137, 216, 1) 46%, rgba(41, 137, 216, 1) 46%, rgba(41, 137, 216, 1) 50%, rgba(2, 12, 18, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(14, 85, 127, 1) 0%, rgba(41, 137, 216, 1) 46%, rgba(41, 137, 216, 1) 46%, rgba(41, 137, 216, 1) 50%, rgba(2, 12, 18, 1) 100%);
+    background: linear-gradient(135deg, rgba(14, 85, 127, 1) 0%, rgba(41, 137, 216, 1) 46%, rgba(41, 137, 216, 1) 46%, rgba(41, 137, 216, 1) 50%, rgba(2, 12, 18, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0e557f', endColorstr='#020c12', GradientType=1);
+}
